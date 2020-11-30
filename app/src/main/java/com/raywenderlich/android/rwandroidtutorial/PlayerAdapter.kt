@@ -45,6 +45,7 @@ class PlayerAdapter(
     private val players: MutableList<PlayerListItem>
 ) : RecyclerView.Adapter<PlayerAdapter.ViewHolder>() {
 
+
   private var listener: ((PlayerListItem) -> Unit)? = null
 
   fun swapData(players: List<PlayerListItem>) {
